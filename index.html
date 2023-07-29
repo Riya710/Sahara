@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/owl.carousel.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+
+  $('#camera_wrap').camera({
+    loader: false,
+    pagination: false ,
+    minHeight: '400',
+    thumbnails: false,
+    height: '38.07291666666667%',
+    caption: false,
+    navigation: true,
+    fx: 'mosaic'
+  });
+
+  $("#owl").owlCarousel({
+    items : 3, //10 items above 1000px browser width
+    itemsDesktop : [995,1], //5 items between 1000px and 901px
+    itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+    itemsTablet: [700, 1], //2 items between 600 and 0
+    itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+    navigation : true,
+    pagination :  false
+  }); 
+ }); 
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1 class="logo">
+        <a href="index.html">
+          Sahara
+          <span>The Joy Of Giving</span>
+        </a>
+      </h1>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container_12">
+        <div class="grid_12">          
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="Donation.html">Donation</a></li>
+               <li><a href="volunteer.html">Volunteering</a></li>
+               <li><a href="awareness.html">Awareness</a></li>
+               <li><a href="events.html">Events</a></li>
+               <li><a href="contacts.html">Contact us</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+     </div> 
+     <div class="clear"></div>
+    </div> 
+  </section>
+</header>
+<section class="slider_wrapper">
+  <div id="camera_wrap" class="">
+    <div data-src="helping.jpg"></div>
+    <div data-src="vol.jpg"></div>
+    <div data-src="feeding.jpg"></div>  
+  </div>  
+</section> 
+<!--=====================
+          Content
+======================-->
+<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
+  <div class="container_12">
+    <div class="grid_4">
+      <div class="banner">
+        <a href="#" class="banner_title">Get <br>
+Involve</a>
+        <div class="maxheight"><img src="i1.jpg" alt="" height="300px" style="padding-top: 0; padding-bottom: 0; border:3px solid #c7c7c7;"></div>
+      </div>
+    </div>
+    <div class="grid_4">
+      <div class="banner">
+        <a href="#" class="banner_title">Selfless <br>
+Activities</a>
+        <div class="maxheight"><img src="i2.jpg" alt="" height="300px" style="padding-top: 0; padding-bottom: 0;" ></div>
+      </div>
+    </div>
+    <div class="grid_4">
+      <div class="banner">
+        <a href="#" class="banner_title">Bring <br>
+Change</a>
+        <div class="maxheight"><img src="i3.jpg" alt="" height="300px" style="padding-top: 0; padding-bottom: 0;"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <article class="block-1 offset__2">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>What We Believe</h2>
+      </div>
+      <ul class="list-1 lst__1">
+        <li class="grid_4">
+          <div class="count">1</div> <div class="text1"><a href="#">Serve with passion</a></div>
+          We are fiercely committed to our purpose of poverty alleviation, and work with a burning desire to make a difference.
+        </li>
+        <li class="grid_4">
+          <div class="count">2</div> <div class="text1"><a href="#">Empathy for all</a></div>
+          We are committed to working together with unconditional respect, freedom, trust and support for each other.
+        </li>
+        <li class="grid_4">
+          <div class="count">3</div> <div class="text1"><a href="#">Integrity</a></div>
+          We strive never to take the easy path, but always the honest one. We practice integrity in all our actions and try to do the right thing by every stakeholder.
+        </li>
+        <li class="clear"></li>
+      </ul>
+    </div>
+  </article><br><br>
+  
+  <div class="container_12">
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon1.png" alt="">
+        <div class="text1"><a href="#">Volunteer</a></div>
+        Our extensive network of donors, delivery partners and crowdfunding platforms allow collective leverage of grants to create a bigger impact. 
+      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon2.png" alt="">
+        <div class="text1"><a href="#">Donate</a></div>
+        Through our technology solutions and services, we enable individuals and organizations to raise funds for, and donate to any cause they care about, with trust and convenience.
+      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon3.png" alt="">
+        <div class="text1"><a href="#">Registration</a></div>
+        our website ease the donation by proving forms with all the details a user must have to fill so that its user friendly and anyone with less knowledge of tech can also operate
+      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon4.png" alt="">
+        <div class="text1"><a href="#">Awareness</a></div>
+        events are organized by our team to spread awarness about girl schooling, resuce elders from the street, orphange, help fighting hunger and much more..
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear sep-1"></div>
+  <article class="carousel_wrapper">
+    <div class="container_12">
+      <div class="grid_12">
+        <div id="owl">
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">Fighting Hunger<br>Feeding Hope</div>
+              <p>Throughout the campaign, we will be partnering with food banks, community organizations, and food retailers to provide food assistance and support for individuals and families facing food insecurity. </p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">Empowering<br>Education</div>
+              
+              <p>The purpose of our Empowering Education campaign is to promote education as a powerful tool for positive change and provide resources for those in need. We believe that every child deserves access to quality education, regardless of their background or circumstances</p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">Saving Water<br>Saving Lives</div>
+              <p>Throughout the campaign, we will be partnering with water conservation organizations and experts to provide educational resources and practical tips on how to save water.  </p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">July 25</div>
+              <p>The detailed description of the <a href="http://blog.templatemonster.com/free-website-templates/" rel="nofollow" class="color2">freebie</a> is published on the blog. <br><br>
+              Find <a href="http://www.templatemonster.com/properties/topic/society-people/" rel="nofollow" class="color2">society &amp; people themes</a> in the same name category at TemplateMonster.com</p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">August 17</div>
+              
+              <p>Horem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, sit wertolio mero dasererat rutrumrem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis</p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner">
+              <div class="banner_title">September 10</div>
+              <p>Jorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, sit wertolio mero dasererat rutrumrem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisise </p>
+              <a href="#" class="owl_link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </article>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12"> 
+      <h1 class="logo">
+        <a href="index.html">
+          SAHARA
+        </a>
+      </h1>
+      <div class="socials">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
+</body>
+</html>
+
